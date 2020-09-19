@@ -28,9 +28,10 @@ public class MainTest {
 	
 	@BeforeSuite
 	public void initiate() throws IOException {
+		//Initiate the Android Emulator
+		//please make sure the emulator command is from ${ANDROID_SDK}/emulator not ${ANDROID_SDK_ROOT}/tools
+		Runtime.getRuntime().exec(new String[]{"bash", "-l", "-c", "emulator -avd capital_test -no-snapshot-load -no-window"});
 		//Initiate the AndroidDriver
-		
-		
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("deviceName", "capital_test");
 		
