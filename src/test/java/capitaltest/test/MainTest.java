@@ -219,7 +219,7 @@ public class MainTest {
 		driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1));
 		driver.pressKey(new KeyEvent(AndroidKey.DIGIT_5));
 		driver.pressKey(new KeyEvent(AndroidKey.DIGIT_9));
-		System.out.println("Test 4 Done");
+		
 		//Change to PM
 		waitUntilVisible(By.id("android:id/pm_label"));
 		driver.findElementById("android:id/pm_label").click();
@@ -227,14 +227,16 @@ public class MainTest {
 		driver.findElementById("android:id/button1").click();
 		
 
-		System.out.println("Test 4 End");
+		System.out.println("Test 4 Done");
 	}
+	
 	
 	@AfterSuite
 	public void cleanup() {
 		try {
 			Thread.sleep(5000);
-		driver.quit();}
+			driver.closeApp();
+			driver.quit();}
 		catch (Exception e) {}
 	}
 	
