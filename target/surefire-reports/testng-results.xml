@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-19T05:45:24Z" name="CapitalTest" finished-at="2020-09-19T05:45:34Z" duration-ms="10294">
+    <groups>
+    </groups>
+    <test started-at="2020-09-19T05:45:24Z" name="SingleTest" finished-at="2020-09-19T05:45:34Z" duration-ms="10294">
+      <class name="capitaltest.test.MainTest">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:capitaltest.test.MainTest@17baae6e]" started-at="2020-09-19T12:45:17Z" name="initiate" finished-at="2020-09-19T12:45:24Z" duration-ms="7161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="singleTest()[pri:0, instance:capitaltest.test.MainTest@17baae6e]" started-at="2020-09-19T12:45:24Z" name="singleTest" finished-at="2020-09-19T12:45:34Z" duration-ms="10285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleTest -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:capitaltest.test.MainTest@17baae6e]" started-at="2020-09-19T12:45:34Z" name="cleanup" finished-at="2020-09-19T12:45:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- capitaltest.test.MainTest -->
+    </test> <!-- SingleTest -->
+  </suite> <!-- CapitalTest -->
+</testng-results>

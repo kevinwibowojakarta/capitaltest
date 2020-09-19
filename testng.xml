@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CapitalTest" configfailurepolicy="continue">
+	<test name="SingleTest" >
+		<classes>
+			<class name="capitaltest.test.MainTest"></class>
+		 </classes>
+	</test>
+</suite>
