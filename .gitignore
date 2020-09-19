@@ -1,0 +1,31 @@
+target
+allure-report
+target/
+*.class
+.classpath
+
+.allure
+.gradle
+schema
+build
+/*/allure-results/
+allure-results
+out
+
+
+#Eclipse files
+*.settings
+*.classpath
+*.project
+*.pydevproject
+debug.log
+
+#Mac OS stuff
+.DS_Store
+
+/.apt_generated/
+/.apt_generated_tests/
+.idea/
+
+*.iml
+
